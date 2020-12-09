@@ -1,0 +1,24 @@
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(197, 197, 209);
+    font-size: 20px;
+    border: none;
+}
+.btn > div{
+    width: 0;
+    height: 100%;
+    background-color: lightblue;
+    transition: all 0.5s;
+}
+.btn > a{
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+.btn:hover > div{
+    width: 50%;
+}
